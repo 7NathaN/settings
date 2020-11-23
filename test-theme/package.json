@@ -1,0 +1,29 @@
+{
+    "name": "test-theme",
+    "displayName": "test-theme",
+    "description": "",
+    "publisher": "JSR",
+    "author": {
+        "name": "J. Sabaté del Río"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/7NathaN/themes"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "JSR",
+                "uiTheme": "vs-dark",
+                "path": "./themes/JSR-color-theme.json"
+            }
+        ]
+    }
+}
