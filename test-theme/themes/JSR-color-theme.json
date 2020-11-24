@@ -60,9 +60,12 @@
 			}
 		},
 		{
-			"name": "class",
+			"name": "f string, class and function lambda",
 			"scope": [
-				"storage.type.class"
+				"storage.type.string",
+				"storage.type.class",
+				"storage.type.function",
+				"storage.type.function.lambda"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -95,8 +98,8 @@
 				"keyword.control.import"
 			],
 			"settings": {
-				"foreground": "#C792EA",
-				"fontStyle": "italic"
+				"foreground": "#b36ce2",
+				"fontStyle": "bold italic",
 			}
 		},
 		{
@@ -143,6 +146,15 @@
 			}
 		},
 		{
+			"name": "decorators for setters and deleters",
+			"scope": [
+				"entity.name.function.decorator"
+			],
+			"settings": {
+				"foreground": "#1F3299"
+			}
+		},
+		{
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other"
@@ -174,7 +186,25 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#f7bf6c"
+			}
+		},
+		{
+			"name": "args of functions, like label='linear'",
+			"scope": [
+				"variable.parameter.function-call"
+			],
+			"settings": {
+				"foreground": "#8b3342"
+			}
+		},
+		{
+			"name": "{} inside fstring",
+			"scope": [
+				"constant.character.format.placeholder.other"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -190,6 +220,16 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "puntuation quote in f string",
+			"scope": [
+				// "string.quoted.single",
+				"punctuation.definition.string.begin"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -209,12 +249,12 @@
 			}
 		},
 		{
-			"name": "Entity Types",
+			"name": "class properties, like getter and constructors",
 			"scope": [
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#1f3299"
 			}
 		},
 		{

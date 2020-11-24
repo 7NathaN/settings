@@ -1,0 +1,13 @@
+to edit the JSR-color-theme.json
+
+F5 to test
+F1 and type "Developer: Inspect Editor Tokens and Scopes"
+allows you to see what is each item in the screen
+
+go to the folder /test-theme and:
+code --install-extension test-theme-0.0.1
+
+to package it:
+
+npm i -g vsce #install vsce (extensions)
+vsce package #for packaging
